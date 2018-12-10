@@ -21,3 +21,5 @@ nobsdcomp
 novj
 novjccomp
 nologfd
+plugin /usr/lib/pppd/2.4.7/radius.so
+plugin /usr/lib/pppd/2.4.7/radattr.so
