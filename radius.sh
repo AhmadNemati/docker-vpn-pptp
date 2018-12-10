@@ -13,7 +13,7 @@ make install
 FREERADIUSHOST="localhost"
 FREERADIUSSECRET="testing123"
 
-echo "localhost testing123" >> /etc/radiusclient/servers
+echo "172.17.0.3 testing123" >> /etc/radiusclient/servers
 
 cat>/etc/radiusclient/dictionary.microsoft<<EOF
 #
