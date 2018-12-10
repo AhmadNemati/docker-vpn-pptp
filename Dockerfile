@@ -8,6 +8,7 @@ COPY ./etc/pptpd.conf /etc/pptpd.conf
 COPY ./etc/ppp/pptpd-options /etc/ppp/pptpd-options
 
 COPY entrypoint.sh /entrypoint.sh
+COPY radius.sh /radius.sh
 RUN chmod 0700 /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
